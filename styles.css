@@ -10,7 +10,7 @@
 }
 
 #second, #minute, #hour {
-    background: black;
+
     position: absolute;
     border-radius: 10px;
 }
@@ -20,17 +20,27 @@
     width: 1%;
     top: 25%;
     left: 48.6%;
+    background:black ;
+    transform-origin: bottom;
+
 } 
 
 #minute {
     height: 30%;
     width: 1%;
-    top: 17%;
+    top: 19%;
     left: 48.6%;
+    background:black ;
+    transform-origin: bottom;
+
+
 }
 #second {
     height: 42%;
     width: 1%;
-    top: 10%;
+    top: 8.1%;
     left: 48.6%;
+    background: royalblue;
+    transform-origin: bottom;
+
 }
